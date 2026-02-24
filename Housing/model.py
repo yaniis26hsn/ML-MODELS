@@ -2,7 +2,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import SGDRegressor
 import numpy as np
 import pandas as pd 
-# this is a model about houses values 
+# this is a model about houses values in boston 
 data = pd.read_csv("hou_all.csv",sep="," , header=None)
 
 data = data.iloc[:, :-1] # removing that bias
