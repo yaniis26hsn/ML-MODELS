@@ -7,7 +7,7 @@ Used algorithms :
 gradient descent 
 k-means algorithm
 
-dataSets were tooken from differant sources such as kaggle , uci , or even from python libs
+dataSets were tooken from differant sources such as kaggle , uci , or even skitLearn dataSets
  
 
  
