@@ -37,6 +37,7 @@ model = SGDRegressor(
 model.fit(X_train , Y_train_scaled.ravel())
 #it must getback to 1D again that why i added ravel()
 
+# for visualizing the predicted results :
 myPredictions = model.predict(X_test) # X_test is already scaled
 myPredictions = y_scaler.inverse_transform(myPredictions.reshape(-1 , 1))
 

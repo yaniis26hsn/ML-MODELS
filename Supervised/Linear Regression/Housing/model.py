@@ -33,7 +33,7 @@ model = SGDRegressor(
 
 model.fit(X_train , Y_train)
 
-predictions = model.predict(X_test)
+#predictions = model.predict(X_test) if you want to visualize the predictions
 
 r2 = model.score(X_test , Y_test)
 
